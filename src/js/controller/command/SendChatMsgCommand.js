@@ -1,0 +1,10 @@
+puremvc.define({
+		name:'drawsomething.controller.command.SendChatMsgCommand',
+		parent:puremvc.SimpleCommand
+	},
+	{
+		execute:function(note){
+			console.log("sendMsg++");
+		}
+	}
+)
